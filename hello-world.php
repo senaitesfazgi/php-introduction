@@ -72,3 +72,24 @@ foreach ($myAssociativeArray as $myKey => $myValue){
 
 }
 
+//functions
+
+function addition($num1, $num2){
+    $result = $num1 + $num2;
+    return $result;
+}
+$num1 = readline("\n\nEnter a num1:");
+$num2 = readline("\n\nEnter a num2:");
+echo "\n\nTesting addition function:\n";
+echo addition($num1,$num2);
+
+echo "\n\nAnother test of the addition function:\n";
+echo addition(-508.67, "36");
+
+function sayHello($name){
+    echo "Hello, $name";
+}
+echo "\n\nTesting sayHello function:\n";
+$name = readline ("\nPlease enter your name:");
+sayHello($name);
+

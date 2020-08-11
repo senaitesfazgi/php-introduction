@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = 'About|TECHCareers';
+$pageTitle = 'PHP Introduction';
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +13,5 @@ $pageTitle = 'About|TECHCareers';
 <body>
     <h1><?php echo "{$pageTitle}"?></h1>
     <?php echo 'test!';?>
-    <?php include 'includes/navigation.php'?>
 </body>
 </html>
